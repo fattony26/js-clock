@@ -89,3 +89,16 @@ let oneSecond = 1000;
 setInterval(updateClock, oneSecond);
 
 // Getting the Party Time Button to Work
+let partyBtn = document.getElementById("partyTimeBtn");
+
+let partyEvent = function() {
+  if (partyTime < 0) {
+    partyTime = new Date().getHours();
+    partyTimeBtn.innerText = "Party Over!";
+    partyTimeBtn.style.backgroundColor = "#0A8DAB"
+  } else {
+    partyTime = -1;
+    partyTimeBtn.innerText = "Party Time!";
+    partyTimeBtn.style.backgroundColor = "#222";
+  }
+};
