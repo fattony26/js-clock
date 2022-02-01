@@ -1,4 +1,4 @@
-# Front End Project
+# Front End Project - **"Dev Clock"**
 
 ### Details: 
 - A user can select the hour(s) they wish to code, have lunch, and even party after they've completed their coding hours for the day
