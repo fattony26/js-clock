@@ -102,3 +102,8 @@ let partyEvent = function() {
     partyTimeBtn.style.backgroundColor = "#222";
   }
 };
+
+partyBtn.addEventListener("click", partyEvent);
+partyEvent();
+
+// Activates Morning Code Sesh selctor
