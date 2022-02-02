@@ -106,7 +106,7 @@ let partyEvent = function() {
 partyBtn.addEventListener("click", partyEvent);
 partyEvent();
 
-// Activates Morning Code Sesh selctor
+// Activates Morning Code Sesh Selector
 let earlyCodeTimeSelector = document. getElementById("earlyCodeTimeSelector");
 
 let earlyCodeEvent = function() {
@@ -115,4 +115,16 @@ let earlyCodeEvent = function() {
 
 earlyCodeTimeSelector.addEventListener("change", earlyCodeEvent);
 
+
+// Activates Lunch Selector
+let lunchTimeSelector = document.getElementById("lunchTimeSelector");
+
+let lunchEvent = function() {
+  lunchTime = lunchTimeSelector.value;
+};
+
+lunchTimeSelector.addEventListener("change", lunchEvent);
+
+
+// Activates ParyTime Selector
 
