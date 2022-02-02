@@ -107,3 +107,8 @@ partyBtn.addEventListener("click", partyEvent);
 partyEvent();
 
 // Activates Morning Code Sesh selctor
+let earlyCodeTimeSelector = document. getElementById("earlyCodeTimeSelector");
+
+let earlyCodeEvent = function() {
+  earlyCodeTime = earlyCodeTimeSelector.value;
+};
