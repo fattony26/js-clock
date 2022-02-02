@@ -112,3 +112,7 @@ let earlyCodeTimeSelector = document. getElementById("earlyCodeTimeSelector");
 let earlyCodeEvent = function() {
   earlyCodeTime = earlyCodeTimeSelector.value;
 };
+
+earlyCodeTimeSelector.addEventListener("change", earlyCodeEvent);
+
+
